@@ -6,7 +6,7 @@ It is especially useful for embedding into regression tests when allocation is a
 
 You can monitor all the threads in your application and are alerted when an exceeded number of bytes are allocated.
 
-##Getting Started:
+## Getting Started:
 
 If you want the latest release binary to add to your project just go to the [latest release in GitHub](https://github.com/danielshaya/org.octtech.bw.ByteWatcher/releases) and download the jar file.
 
@@ -14,7 +14,7 @@ Alternatively you can download the source code from GitHub and build using Maven
 
 To be honest, given the amount of code, even copy and paste should work fine.
 
-##Example Usage:
+## Example Usage:
 
 This code will print out a warning message if more than 1MB of data has been allocated by a single thread:
 ```java
